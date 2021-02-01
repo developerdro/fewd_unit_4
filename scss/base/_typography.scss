@@ -1,0 +1,32 @@
+// ==========================================================================
+// Typography
+// ==========================================================================
+
+* {
+    font-family: $font-stack-primary;
+    color: $grey;
+}
+
+p {
+    line-height: 1.45em;
+}
+
+.headline-primary {
+    color: $color-primary;
+}
+
+.headline-secondary {
+    font-weight: $light;
+    color: $grey;
+}
+
+.link {
+    color: $color-secondary;
+    font-weight: $bold;
+}
+
+.blockquote {
+    font-size: 1.5em;
+    font-weight: $light;
+    font-style: italic;
+}

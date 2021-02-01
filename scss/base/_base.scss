@@ -1,0 +1,30 @@
+// ==========================================================================
+// Base Styles
+// ==========================================================================
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  padding: 0 10px;
+  @media (min-width: $break-m) {
+    max-width: 1400px;
+    @include block_center;
+  }
+}
+
+.headline-primary {
+  margin-left: 10px;
+}
+
+.blockquote {
+  margin-left: 20px;
+  padding-left: 20px;
+  border-left: 8px solid $color-primary;
+  border-radius: 5px;
+}
